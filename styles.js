@@ -7,7 +7,8 @@ export const colors = {
   lightHl: "#888",
   pink: "#ea3372",
   text: "#fff",
-  textSec: "#aaa"
+  textSec: "#aaa",
+  orange: "#F97878"
 };
 
 export const gs = StyleSheet.create({
@@ -61,5 +62,12 @@ export const gs = StyleSheet.create({
     alignItems: "center",
     backgroundColor: colors.pink,
     borderRadius: 100
+  },
+  subTitle: {
+    fontWeight: "600",
+    textTransform: "uppercase",
+    color: "rgba(255,255,255,0.6)",
+    fontSize: 15,
+    letterSpacing: 1
   }
 });

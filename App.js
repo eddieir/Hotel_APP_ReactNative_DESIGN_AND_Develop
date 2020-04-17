@@ -2,10 +2,13 @@ import React from 'react';
 import { StyleSheet, Text, View, ScrollView } from 'react-native';
 import { colors } from './styles';
 import HotelView from './screens/HotelView';
+import ProfileView from './screens/ProfileView';
+//import Redirect from './redirect';
 export default function App() {
   return (
     <ScrollView style={styles.container}>
       <HotelView />
+      <ProfileView />
     </ScrollView>
   );
 }
