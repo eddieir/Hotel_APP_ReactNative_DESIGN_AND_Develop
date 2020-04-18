@@ -7,7 +7,7 @@ import ProfileView from './screens/ProfileView';
 export default function App() {
   return (
     <ScrollView style={styles.container}>
-      <HotelView />
+      {/* <HotelView /> */}
       <ProfileView />
     </ScrollView>
   );
