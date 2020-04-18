@@ -3,7 +3,9 @@ import { Text, View, StyleSheet, ScrollView, StatusBar, ActivityIndicator } from
 import { gs, colors } from '../../styles';
 import Header from './components/Header';
 import Stats from './components/Stats';
-
+import About from './components/About';
+import Location from './components/Location';
+import Photos from './components/Photos';
 export default class index extends Component {
   state = {
 
@@ -38,8 +40,12 @@ export default class index extends Component {
     }
     return (
       <View style={styles.container}>
+        <StatusBar barStyle="light-content" />
         <Header user={this.state.user} />
         <Stats />
+        <About />
+        <Location />
+        <Photos />
       </View>
     )
   }
